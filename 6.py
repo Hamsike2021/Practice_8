@@ -1,5 +1,4 @@
 import argparse
-from random import sample
 
 try:
     parser = argparse.ArgumentParser()
