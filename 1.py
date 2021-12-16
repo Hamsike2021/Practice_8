@@ -7,5 +7,5 @@ arg = parser.parse_args().indir
 try:
     with open(arg, 'r', encoding='utf8') as r:
         print(r.read(10))
-except FileNotFoundError:
+except:
     print('Error')
